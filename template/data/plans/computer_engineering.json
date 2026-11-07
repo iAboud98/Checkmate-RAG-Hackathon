@@ -1,0 +1,828 @@
+{
+  "program": "هندسة الحاسوب",
+  "program_en": "Computer Engineering",
+  "source": "خطة هندسة الحاسوب 2026.pdf",
+  "doc_title": "الخطة الدراسية لبكالوريوس هندسة الحاسوب (نيسان 2026)",
+  "table_pages": [
+    5,
+    6,
+    7
+  ],
+  "total_hours": 138,
+  "requirements": {
+    "university": 16,
+    "free": 3,
+    "major_elective": 16,
+    "required": 103
+  },
+  "category_labels": {
+    "university": "متطلبات الجامعة",
+    "free": "مساقات حرة",
+    "major_elective": "متطلبات التخصص الاختيارية",
+    "required": "متطلبات الكلية والتخصص الإجبارية"
+  },
+  "terms": [
+    "Y1-S1",
+    "Y1-S2",
+    "Y1-Summer",
+    "Y2-S1",
+    "Y2-S2",
+    "Y3-S1",
+    "Y3-S2",
+    "Y3-Summer",
+    "Y4-S1",
+    "Y4-S2"
+  ],
+  "term_labels": {
+    "Y1-S1": "السنة الأولى · الفصل الأول",
+    "Y1-S2": "السنة الأولى · الفصل الثاني",
+    "Y1-Summer": "السنة الأولى · الصيفي",
+    "Y2-S1": "السنة الثانية · الفصل الأول",
+    "Y2-S2": "السنة الثانية · الفصل الثاني",
+    "Y3-S1": "السنة الثالثة · الفصل الأول",
+    "Y3-S2": "السنة الثالثة · الفصل الثاني",
+    "Y3-Summer": "السنة الثالثة · الصيفي",
+    "Y4-S1": "السنة الرابعة · الفصل الأول",
+    "Y4-S2": "السنة الرابعة · الفصل الثاني"
+  },
+  "courses": [
+    {
+      "code": "ARAB136",
+      "name_en": "Arabic2",
+      "credits": 3,
+      "category": "university",
+      "term": "Y1-S1",
+      "page": 5,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": false
+    },
+    {
+      "code": "ENGC1400",
+      "name_en": "INTENSIVE INTERMEDIATE ENGLISH 1",
+      "credits": 4,
+      "category": "university",
+      "term": "Y1-S1",
+      "page": 5,
+      "prereqs": [
+        [
+          "ENGC1000"
+        ]
+      ],
+      "prereq_text": "ENGC1000",
+      "prereq_page": 33,
+      "needs_review": false
+    },
+    {
+      "code": "COMP133",
+      "name_en": "Computer and Programming",
+      "credits": 3,
+      "category": "required",
+      "term": "Y1-S1",
+      "page": 5,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": false
+    },
+    {
+      "code": "MATH1311",
+      "name_en": "Calculus For Engineering I",
+      "credits": 3,
+      "category": "required",
+      "term": "Y1-S1",
+      "page": 5,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": false
+    },
+    {
+      "code": "PHYS1310",
+      "name_en": "General Physics for Engineering I",
+      "credits": 3,
+      "category": "required",
+      "term": "Y1-S1",
+      "page": 5,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": false
+    },
+    {
+      "code": "PHYS111",
+      "name_en": "General Physics Lab 1",
+      "credits": 1,
+      "category": "required",
+      "term": "Y1-S1",
+      "page": 5,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": false
+    },
+    {
+      "code": "MATH1322",
+      "name_en": "Calculus 2",
+      "credits": 3,
+      "category": "required",
+      "term": "Y1-S2",
+      "page": 5,
+      "prereqs": [
+        [
+          "MATH1411",
+          "MATH1311"
+        ]
+      ],
+      "prereq_text": "MATH1411  or MATH1311",
+      "prereq_page": 20,
+      "needs_review": false
+    },
+    {
+      "code": "COMP233",
+      "name_en": "Discrete Mathematics",
+      "credits": 3,
+      "category": "required",
+      "term": "Y1-S2",
+      "page": 5,
+      "prereqs": [
+        [
+          "MATH1311"
+        ]
+      ],
+      "prereq_text": "MATH1311",
+      "prereq_page": 8,
+      "needs_review": false
+    },
+    {
+      "code": "COMP2310",
+      "name_en": "Object-Oriented Programming",
+      "credits": 3,
+      "category": "required",
+      "term": "Y1-S2",
+      "page": 5,
+      "prereqs": [
+        [
+          "COMP133",
+          "COMP132",
+          "COMP230",
+          "COMP142"
+        ]
+      ],
+      "prereq_text": "COMP133 or COMP132 or COMP230 or COMP142",
+      "prereq_page": 21,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS2340",
+      "name_en": "Digital Systems",
+      "credits": 3,
+      "category": "required",
+      "term": "Y1-S2",
+      "page": 5,
+      "prereqs": [
+        [
+          "COMP133",
+          "COMP142",
+          "COMP230",
+          "COMP132",
+          "COMP1331"
+        ]
+      ],
+      "prereq_text": "COMP133 or COMP142 or COMP230 or COMP132 or COMP1331",
+      "prereq_page": 23,
+      "needs_review": false
+    },
+    {
+      "code": "PHYS1322",
+      "name_en": "Physics2",
+      "credits": 3,
+      "category": "required",
+      "term": "Y1-S2",
+      "page": 5,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": true
+    },
+    {
+      "code": "ENGC2400",
+      "name_en": "INTENSIVE INTERMEDIATE ENGLISH 2",
+      "credits": 3,
+      "category": "university",
+      "term": "Y1-Summer",
+      "page": 5,
+      "prereqs": [
+        [
+          "ENGC1400"
+        ]
+      ],
+      "prereq_text": "ENGC1400",
+      "prereq_page": 33,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS3130",
+      "name_en": "LINUX Laboratory",
+      "credits": 1,
+      "category": "required",
+      "term": "Y2-S1",
+      "page": 5,
+      "prereqs": [
+        [
+          "COMP133",
+          "COMP230",
+          "COMP142",
+          "COMP132"
+        ]
+      ],
+      "prereq_text": "COMP133 or COMP230 or COMP142 or COMP132",
+      "prereq_page": 22,
+      "needs_review": false
+    },
+    {
+      "code": "MATH331",
+      "name_en": "Ordinary Differential Equations",
+      "credits": 3,
+      "category": "required",
+      "term": "Y2-S1",
+      "page": 5,
+      "prereqs": [
+        [
+          "MATH1322"
+        ]
+      ],
+      "prereq_text": "MATH1322",
+      "prereq_page": 21,
+      "needs_review": false
+    },
+    {
+      "code": "COMP23xx",
+      "name_en": "Data Structure",
+      "credits": 3,
+      "category": "required",
+      "term": "Y2-S1",
+      "page": 5,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS2380",
+      "name_en": "Computer Organization and Microprocessor",
+      "credits": 3,
+      "category": "required",
+      "term": "Y2-S1",
+      "page": 5,
+      "prereqs": [
+        [
+          "ENCS234",
+          "ENCS2340"
+        ]
+      ],
+      "prereq_text": "ENCS234 or ENCS2340",
+      "prereq_page": 9,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS2110",
+      "name_en": "Digital Electronics and Computer Organization Laboratory",
+      "credits": 1,
+      "category": "required",
+      "term": "Y2-S1",
+      "page": 5,
+      "prereqs": [
+        [
+          "ENCS2380",
+          "ENCS432",
+          "ENCS336",
+          "ENCS2308",
+          "ENCS3360"
+        ]
+      ],
+      "prereq_text": "(ENCS2380 or ENCS432 or ENCS3341or ENCS336 or ENCS2308 or ENCS3360) or concurrent.",
+      "prereq_page": 22,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS3320",
+      "name_en": "Computer Networks",
+      "credits": 3,
+      "category": "required",
+      "term": "Y2-S1",
+      "page": 5,
+      "prereqs": [
+        [
+          "COMP133",
+          "COMP230",
+          "COMP1331"
+        ]
+      ],
+      "prereq_text": "COMP133 or COMP230 or COMP1331",
+      "prereq_page": 23,
+      "needs_review": false
+    },
+    {
+      "code": "ENEE2307",
+      "name_en": "Probability and Engineering Statistics",
+      "credits": 3,
+      "category": "required",
+      "term": "Y2-S1",
+      "page": 5,
+      "prereqs": [
+        [
+          "MATH1322"
+        ]
+      ],
+      "prereq_text": "MATH1322",
+      "prereq_page": 24,
+      "needs_review": false
+    },
+    {
+      "code": "COMP3330",
+      "name_en": "Database Management Systems",
+      "credits": 3,
+      "category": "required",
+      "term": "Y2-S2",
+      "page": 5,
+      "prereqs": [
+        [
+          "COMP242",
+          "COMP2421"
+        ]
+      ],
+      "prereq_text": "(COMP242 or COMP2421 or COMP23xx) or concurrent",
+      "prereq_page": 25,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS3310",
+      "name_en": "Advanced Digital Systems Design",
+      "credits": 3,
+      "category": "required",
+      "term": "Y2-S2",
+      "page": 5,
+      "prereqs": [
+        [
+          "ENCS2380",
+          "ENCS2308"
+        ]
+      ],
+      "prereq_text": "ENCS2380 or ENCS2308",
+      "prereq_page": 9,
+      "needs_review": false
+    },
+    {
+      "code": "ENEE2306",
+      "name_en": "CIRCUIT ANALYSIS",
+      "credits": 3,
+      "category": "required",
+      "term": "Y2-S2",
+      "page": 5,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": true
+    },
+    {
+      "code": "ENEE2312",
+      "name_en": "Signals and Systems",
+      "credits": 3,
+      "category": "required",
+      "term": "Y2-S2",
+      "page": 5,
+      "prereqs": [
+        [
+          "MATH331"
+        ]
+      ],
+      "prereq_text": "MATH331",
+      "prereq_page": 12,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS3340",
+      "name_en": "Artificial Intelligence",
+      "credits": 3,
+      "category": "required",
+      "term": "Y2-S2",
+      "page": 5,
+      "prereqs": [
+        [
+          "COMP233",
+          "ENNS2301"
+        ],
+        [
+          "COMP142",
+          "COMP230",
+          "COMP133"
+        ]
+      ],
+      "prereq_text": "COMP233 or ENNS2301 and (COMP142 or COMP230 or COMP133)",
+      "prereq_page": 26,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS3390",
+      "name_en": "Operating Systems",
+      "credits": 3,
+      "category": "required",
+      "term": "Y2-S2",
+      "page": 5,
+      "prereqs": [
+        [
+          "ENCS2380",
+          "ENCS2308",
+          "ENCS3360",
+          "ENCS3341"
+        ]
+      ],
+      "prereq_text": "ENCS2380 or ENCS2308 or ENCS3360 or ENCS3341",
+      "prereq_page": 25,
+      "needs_review": false
+    },
+    {
+      "code": "ENEE2360",
+      "name_en": "ANALOG ELECTRONICS",
+      "credits": 3,
+      "category": "required",
+      "term": "Y3-S1",
+      "page": 6,
+      "prereqs": [
+        [
+          "ENEE2306"
+        ]
+      ],
+      "prereq_text": "ENEE2311or ENEE2306",
+      "prereq_page": 32,
+      "needs_review": false
+    },
+    {
+      "code": "ENEE3309",
+      "name_en": "COMMUNICATION SYSTEMS",
+      "credits": 3,
+      "category": "required",
+      "term": "Y3-S1",
+      "page": 6,
+      "prereqs": [
+        [
+          "ENEE2312",
+          "ENEE2307"
+        ]
+      ],
+      "prereq_text": "ENEE2312 ، ENEE2307",
+      "prereq_page": 31,
+      "needs_review": false
+    },
+    {
+      "code": "COMP433",
+      "name_en": "Software Engineering",
+      "credits": 3,
+      "category": "required",
+      "term": "Y3-S1",
+      "page": 6,
+      "prereqs": [
+        [
+          "COMP3330",
+          "COMP333"
+        ]
+      ],
+      "prereq_text": "COMP3330 or COMP333",
+      "prereq_page": 28,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS4130",
+      "name_en": "Computer Networks Laboratory",
+      "credits": 1,
+      "category": "required",
+      "term": "Y3-S1",
+      "page": 6,
+      "prereqs": [
+        [
+          "ENCS4330",
+          "ENCS436",
+          "ENCS3320"
+        ]
+      ],
+      "prereq_text": "ENCS4330 or ENCS436 or ENCS3320",
+      "prereq_page": 24,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS4110",
+      "name_en": "Computer Design Laboratory",
+      "credits": 1,
+      "category": "required",
+      "term": "Y3-S1",
+      "page": 6,
+      "prereqs": [
+        [
+          "ENCS2110"
+        ],
+        [
+          "ENCS2308"
+        ]
+      ],
+      "prereq_text": "ENCS2110 and (ENC2380 or ENCS2308)",
+      "prereq_page": 10,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS4320",
+      "name_en": "Applied Cryptography",
+      "credits": 3,
+      "category": "required",
+      "term": "Y3-S1",
+      "page": 6,
+      "prereqs": [
+        [
+          "COMP133"
+        ],
+        [
+          "COMP233",
+          "ENNS2301"
+        ]
+      ],
+      "prereq_text": "COMP133, COMP233 or ENNS2301",
+      "prereq_page": 26,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS4370",
+      "name_en": "Computer Architecture",
+      "credits": 3,
+      "category": "required",
+      "term": "Y3-S1",
+      "page": 6,
+      "prereqs": [
+        [
+          "ENCS3360",
+          "ENCS2380",
+          "ENCS2308"
+        ]
+      ],
+      "prereq_text": "ENCS3360 or ENCS2380 or ENCS2308",
+      "prereq_page": 11,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS3330",
+      "name_en": "Digital Integrated Circuits",
+      "credits": 3,
+      "category": "required",
+      "term": "Y3-S2",
+      "page": 6,
+      "prereqs": [
+        [
+          "ENCS2340"
+        ],
+        [
+          "ENEE2360",
+          "ENEE2313"
+        ]
+      ],
+      "prereq_text": "ENCS2340 and (ENEE2360 or ENEE2313)",
+      "prereq_page": 10,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS4210",
+      "name_en": "Computer Engineering Ethics",
+      "credits": 2,
+      "category": "required",
+      "term": "Y3-S2",
+      "page": 6,
+      "prereqs": [],
+      "prereq_text": "Finishing 90 credit hours",
+      "prereq_page": 10,
+      "needs_review": false
+    },
+    {
+      "code": "ENEE2103",
+      "name_en": "Circuits and Electronics Laboratory",
+      "credits": 1,
+      "category": "required",
+      "term": "Y3-S2",
+      "page": 6,
+      "prereqs": [
+        [
+          "PHYS112"
+        ],
+        [
+          "ENEE236",
+          "ENEE2360"
+        ]
+      ],
+      "prereq_text": "PHYS112 and (ENEE236 or ENEE2360)",
+      "prereq_page": 23,
+      "needs_review": false
+    },
+    {
+      "code": "ECON3372",
+      "name_en": "PROJECTMANAGEMENT ANDECONOMICSFOR ENGINEERINGSTUDENTS ANDECONOMICSFOR ENGINEERINGSTUDENTS",
+      "credits": 3,
+      "category": "required",
+      "term": "Y3-S2",
+      "page": 6,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": true
+    },
+    {
+      "code": "MATH2360",
+      "name_en": "Linear Algebra and Numerical Methods",
+      "credits": 3,
+      "category": "required",
+      "term": "Y3-S2",
+      "page": 6,
+      "prereqs": [
+        [
+          "MATH1322"
+        ]
+      ],
+      "prereq_text": "MATH1322",
+      "prereq_page": 21,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS3350",
+      "name_en": "Embedded Systems and Microcontrollers",
+      "credits": 3,
+      "category": "required",
+      "term": "Y3-S2",
+      "page": 6,
+      "prereqs": [
+        [
+          "ENCS338",
+          "ENCS2380"
+        ],
+        [
+          "ENEE2360",
+          "ENEE23600"
+        ]
+      ],
+      "prereq_text": "(ENCS338 or ENCS2380), (ENEE2360 or ENEE23600)",
+      "prereq_page": 7,
+      "needs_review": false
+    },
+    {
+      "code": "DepElectv1",
+      "name_en": "Department Elective1",
+      "credits": 3,
+      "category": "major_elective",
+      "term": "Y3-S2",
+      "page": 6,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS4300",
+      "name_en": "Practical Training",
+      "credits": 3,
+      "category": "required",
+      "term": "Y3-Summer",
+      "page": 6,
+      "prereqs": [],
+      "prereq_text": "Finishing 90 credit hours and department approval",
+      "prereq_page": 11,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS5200",
+      "name_en": "Introduction to Graduation Project",
+      "credits": 2,
+      "category": "required",
+      "term": "Y4-S1",
+      "page": 6,
+      "prereqs": [],
+      "prereq_text": "Finishing 95 credit hours and department approval",
+      "prereq_page": 11,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS4120",
+      "name_en": "Embedded Systems and Microcontrollers Lab",
+      "credits": 1,
+      "category": "required",
+      "term": "Y4-S1",
+      "page": 6,
+      "prereqs": [
+        [
+          "ENCS3350"
+        ]
+      ],
+      "prereq_text": "ENCS3350",
+      "prereq_page": 7,
+      "needs_review": false
+    },
+    {
+      "code": "CULS332",
+      "name_en": "Modern and Contemporary Arab Thought",
+      "credits": 3,
+      "category": "university",
+      "term": "Y4-S1",
+      "page": 6,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": true
+    },
+    {
+      "code": "DepElectv2-3",
+      "name_en": "Department Electives2 3 ,",
+      "credits": 6,
+      "category": "major_elective",
+      "term": "Y4-S1",
+      "page": 6,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": false
+    },
+    {
+      "code": "UniElective",
+      "name_en": "University Elective",
+      "credits": 3,
+      "category": "free",
+      "term": "Y4-S1",
+      "page": 6,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS5300",
+      "name_en": "Graduation Project",
+      "credits": 3,
+      "category": "required",
+      "term": "Y4-S2",
+      "page": 6,
+      "prereqs": [
+        [
+          "ENCS4300"
+        ],
+        [
+          "ENCS5200"
+        ]
+      ],
+      "prereq_text": "ENCS4300 and ENCS5200",
+      "prereq_page": 12,
+      "needs_review": false
+    },
+    {
+      "code": "DepElectv4-5",
+      "name_en": "Department Electives4 5 ,",
+      "credits": 6,
+      "category": "major_elective",
+      "term": "Y4-S2",
+      "page": 6,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": false
+    },
+    {
+      "code": "LabElective",
+      "name_en": "Lab Elective",
+      "credits": 1,
+      "category": "major_elective",
+      "term": "Y4-S2",
+      "page": 6,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": false
+    },
+    {
+      "code": "ENCS5250",
+      "name_en": "Modern Technologies in Computer Engineering",
+      "credits": 2,
+      "category": "required",
+      "term": "Y4-S2",
+      "page": 7,
+      "prereqs": [],
+      "prereq_text": "Finishing 90 credit hours",
+      "prereq_page": 8,
+      "needs_review": false
+    },
+    {
+      "code": "CULS331",
+      "name_en": "Modern and Contemporary European Civilization",
+      "credits": 3,
+      "category": "university",
+      "term": "Y4-S2",
+      "page": 7,
+      "prereqs": [],
+      "prereq_text": "",
+      "prereq_page": null,
+      "needs_review": true
+    }
+  ]
+}

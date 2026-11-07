@@ -1,0 +1,22 @@
+{
+  "student_regulations_2023.pdf": {
+    "title": "نظام الدراسة لمرحلة البكالوريوس",
+    "version": "2023",
+    "date": "2023-09-01"
+  },
+  "student_regulations_2025.pdf": {
+    "title": "نظام الدراسة لمرحلة البكالوريوس",
+    "version": "2025",
+    "date": "2025-08-15"
+  },
+  "computer_engineering_study_plan.pdf": {
+    "title": "الخطة الدراسية لتخصص هندسة الحاسوب",
+    "version": "2024",
+    "date": "2024-06-01"
+  },
+  "registration_and_fees.pdf": {
+    "title": "دليل التسجيل والرسوم الجامعية",
+    "version": "2025",
+    "date": "2025-08-20"
+  }
+}

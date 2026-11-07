@@ -1,0 +1,13 @@
+# Checkmate theme: the deck's "Checkmate Olive" colours (deck/Checkmate_Pitch.pptx theme).
+[theme]
+base = "light"
+primaryColor = "#2E7D5B"
+backgroundColor = "#EEF4F0"
+secondaryBackgroundColor = "#DCE9E1"
+textColor = "#1B2B24"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

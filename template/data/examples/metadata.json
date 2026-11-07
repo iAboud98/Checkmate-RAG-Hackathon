@@ -1,0 +1,22 @@
+{
+  "hr_policies_2025.pdf": {
+    "title": "دليل سياسات الموارد البشرية",
+    "version": "2025",
+    "date": "2025-01-01"
+  },
+  "travel_policy.docx": {
+    "title": "سياسة السفر والمصاريف",
+    "version": "2024",
+    "date": "2024-03-01"
+  },
+  "it_security_faq.md": {
+    "title": "أسئلة شائعة عن أمن المعلومات",
+    "version": "2025",
+    "date": "2025-02-10"
+  },
+  "leave_policy_2023.txt": {
+    "title": "سياسة الإجازات",
+    "version": "2023",
+    "date": "2023-01-01"
+  }
+}
